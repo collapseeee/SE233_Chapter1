@@ -1,13 +1,26 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+### Maven ###
 chapter1/target/
+target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+dependency-reduced-pom.xml
+
+### Logs ###
+logs/
+*.log
+chapter1/logs/
+chapter1/*.log
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea/workspace.xml
 *.iws
 *.iml
 *.ipr
@@ -37,4 +50,26 @@ build/
 ### Mac OS ###
 .DS_Store
 
-### ###
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Linux ###
+*~
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+### Package Files ###
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
