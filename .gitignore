@@ -16,14 +16,41 @@ chapter1/logs/
 chapter1/*.log
 
 ### IntelliJ IDEA ###
+# Ignore most .idea files
+.idea/*
+chapter1/.idea/
+
+# But keep shared project configuration (optional - uncomment if you want to share)
+# !.idea/codeStyles/
+# !.idea/inspectionProfiles/
+# !.idea/runConfigurations/
+# !.idea/vcs.xml
+
+# Always ignore these
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-.idea/workspace.xml
+.idea/.gitignore
+.idea/misc.xml
+.idea/encodings.xml
+
+# IntelliJ module files
 *.iws
 *.iml
 *.ipr
+
+# User-specific files
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
 ### Eclipse ###
 .apt_generated
